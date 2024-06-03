@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,9 +26,25 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+/* * {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}  */
+
+/* Disable zooming */
+/* html, body {
+  touch-action: pan-y;
+  -ms-touch-action: pan-y;
+} */
