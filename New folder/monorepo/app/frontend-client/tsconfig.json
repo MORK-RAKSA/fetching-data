@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "jsx": "preserve",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
